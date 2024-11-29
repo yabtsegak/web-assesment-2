@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    justify-content: flex-end;
+
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    height: 75px;
+ 
+}
+.logo a,p{
+    color: white;
+    text-decoration: none;
+}
+span{
+    color: orange;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+    height: 75px;
+}
+.nav ul{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.nav li{
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    background-color: greenyellow;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+a:hover{
+    background-color: orange;
+}
+p{
+    font-size: medium;
+    font-style: italic;
+    column-gap: black;
+}
+.con{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin: 5px;
+}
+.main{
+   display: grid;
+   width: 70%;
+   grid-template-columns:auto auto ;
+   grid-template-rows:340px 340px ;
+   column-gap: 3%;
+   row-gap: 10px;
+
+}
+.main2{
+    width: 70%;
+}
+.img{
+    max-width:  100%;
+    padding: 3px;
+    margin: 5px;
+}
+.box{
+    width: 100%;
+    padding: 2%;
+    padding-bottom: 100px;
+    height: auto;
+    background-color: grey;
+    margin-left: 5%;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 700px;
+    position: relative;
+    margin: 5%;
+
+}
+.uper{
+    padding: 2%;   
+}
+.ul{
+    display: flex;
+    flex-direction: column;
+}
+.li{
+    list-style: none;
+}
+a{
+    color: greenyellow;
+}
+.low{
+    padding: 2%;
+    
+
+}
+.ibg{
+    display:flex;
+    width: 100%;
+    height: auto ;
+    background-color: black;
+
+}
+.cl1{
+    width: 33%;
+    height: 650px;
+    color: white;
+    text-align: end;
+}
+.boxx{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: end;
+
+}
+.cl2{
+    width: 33%;
+    padding: 5%;
+    margin-top: -5%;
+    color: white;
+}
+.cl3{
+    width: 33%;
+    padding: 5%;
+    margin-top: -5%;
+    color: white;  
+}
+footer{
+    display: flex;
+    background-color: grey;
+    height: 100px;
+    align-items: center;
+}
+footer ul{
+    display: 
+    flex;
+    margin-left: 50%;
+
+}
+footer ul li{
+    list-style: none;
+    margin-left: 8%;
+}
+li a{
+    text-decoration: none;
+}
+
+
